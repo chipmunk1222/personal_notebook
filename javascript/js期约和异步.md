@@ -1,0 +1,26 @@
+*期约Promise：*
+- 期约的状态：
+	- pending：期约初始状态
+	- fulfiled：表示期约可以落定
+	- rejected：表示期约被拒绝
+- 通过函数控制期约执行状态：
+	- let p1 = new Promise((resolve,refect)=>{resolve()})
+	- 注：期约执行器是同步的，意味着期约获取到一个结束状态时就会结束
+- resolve：
+	- Promise.resolve()：实例化一个解决的期约
+- reject：
+	- Promise.reject()：实例化一个被拒绝的期约
+- Thenable接口：
+	- then()：最多接收两个参数，分别在期约进入“兑现”和“拒绝”状态下执行
+	- reject()：只接受一个参数，用来处理期约被拒绝后的执行
+	- finally()：在期约转换为任意状态后执行
+- 期约连锁：
+	- 定义：由于期约then()执行完后都返回一个新的期约，故可以连锁调用
+	- 直接连锁调用会返回同步结果，如要异步返回，则需要每次创建一个新的期约对象
+- 异步函数：
+	- async：
+		- 定义：async声明可以让函数具有异步特性，但总体上函数依然是同步的
+		- return：异步函数的返回值会被包装为一个Promise对象
+	- await：
+		- 定义：await关键字可以暂停代码执行，等待期约解决
+		- await sleep(num)：表示阻塞暂停num微秒

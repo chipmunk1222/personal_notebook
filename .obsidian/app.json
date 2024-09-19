@@ -1,0 +1,16 @@
+{
+  "vimMode": false,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

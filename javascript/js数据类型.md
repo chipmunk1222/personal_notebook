@@ -1,0 +1,175 @@
+*基本数据类型：
+- 6种原始数据类型：Undefined、Null、Boolean、Number、 String 和 Symbol
+- 1种复杂数据类型：Object
+- 数据操作：
+	- parseInt(value\[，num])：将数据转化为整形，第二个参数表示进制
+	- parseFloat(value)：将数据转化为浮点数
+	- toString(value)：将数据转化为字符串
+	- 模板字面量：使用反引号包裹，模板化输入，可使用字符串插值${}插入字面量
+
+*基本引用类型：*
+- 引用类型定义：对原始类型的包装，使其具有一些封装好的属性，即对象
+- Date：
+	- 构造函数：let date = new Date()    //不传参数将默认传入当前时期
+	- Date.parse()    //传入字符串，将日期转化为对应毫秒数
+	- Date.UTC()      //传入数字，将日期转化为毫秒数
+	- 注：构造函数传入的参数为上两种函数返回格式，函数会被隐式调用
+	- 当前时间：let start = Date.now()
+	- Date.toString()   //返回日期的字符串表现形式
+	- Date.valueOf()   //在比较日期时隐式调用，返回日期毫秒数
+	- 日期组件/方法：
+		- getTime()   //返回时间毫秒数，等同于valueOf
+		- setTime(milisecond)   //以毫秒数设置时间
+		- getFullyear()   //返回年份
+		- getMonth()  //返回月份
+		- getDate()   //返回日期
+		- getDay()   //返回星期几
+		- getHours/Minutes/Seconds  //返回时间
+- RegExp：
+	- 语法模式：let expression = /pattern/flags   //模式控制匹配内容，标记控制匹配行为
+	- flags：
+		- g：全局匹配
+		- i：忽略大小写
+		- y：向后查找
+	- pattern语法：/^expression$/flags
+- 原始引用类型：
+	- 定义：在原始类型上定义的引用包装，映射到同名原始类型
+	- 作用：可以重写原始方法适配更多场景，创建引用实例改变生命周期
+	- 类型：Boolean、Number、String都具有引用类型
+- 单例内置对象：
+	- 定义：在ECMA程序开始执行时就存在的对象
+	- Global：
+		- 定义：兜底对象，代码无法直接访问它，针对不属于任何对象的属性或方法
+		- 属性：NaN、Undefined、String、Object、Function、Date等都属于global对象
+	- window：
+		- 定义：ECMA虽不能访问global对象，但使用window对象作为其代理
+		- 特点：由于基础属性都属于window，故调用时可省略window
+	- Math：
+		- 定义：保存数学公式、定义和计算的地方
+		- Math.random()：随机数生成器
+		- selectFrom(min,max)：用于在min和max(包含)间选择一个数
+
+*集合引用类型：*
+- 内容：对象、数组、Map、Set数据类型
+- Object：
+	- 对象创建：
+		- 构造函数let obj = new Object({})
+		- 字面量：直接let obj = {}
+		- 两者无本质区别，故一般使用字面量更加简洁
+	- 对象读取：
+		- 点语法：Object.name
+		- 中括号语法：Object \["name"]
+		- 注：一般情况下两者共通，如果属性中包含关键字，则使用中括号读取
+	- 对象数据属性：Configurable、Enumberable、Writable、Value
+		- 可通过Object.defineProperty()修改
+	- 访问器属性：Configurable、Enumberable、get、set
+	- 增强对象语法：
+		- 属性值简写：变量名、值相同时可省略一个
+		- 可计算属性：中括号语法可传入变量，从而实现动态属性赋值
+		- 简写方法名：在对象中定义函数直接写方法名(与可计算属性兼容)
+		- 对象解构：使用与对象匹配的解构来对对象赋值
+	- 原型：
+		- prototype：对象原型属性，在对象实例被创建时构建，保存对象共有属性
+		- constructor：对象原型中的属性，指向原型对象
+		- \_\_proto__：隐式原型，继承自的原型
+		- instanceof：判断属性是否继承自原型
+		- isPrototypeOf：判断原型上是否有属性
+		- hasOwnProperty()：确认属性是在原型上还是实例上
+		- in：确认是否存在某个属性
+	- 类：ES6新增的语法糖，本质上仍使用原型和构造函数的概念
+		- constructor：使用constructor定义类上的构造函数
+		- extends：使用extends关键字进行类继承，本质上仍使用原型链的概念
+		- super：通过super关键字调用父类上的属性和静态方法
+- Array：
+	- 定义：数组是一种特殊的对象，符合对象的基本性质
+	- Array的静态方法：
+		- Array.from()：用于将类数组结构转化为数组
+		- Array.of()：把一组参数转化为数组
+	- 迭代器方法：
+		- a.keys()：返回数组索引迭代器
+		- a.values()：返回数组元素迭代器
+		- a.entries()：返回索引/值对迭代器
+	- 数组填充：
+		- a.fill(value \[,startindex\[,endindex]])：用于填充数组
+	- 转换方法：
+		- a.toString()/a.valueOf()：将数组转换为字符串，用','连接
+		- a.join("signal")：将数组转化为字符串，自定义连接符号
+	- 栈/队列方法：
+		- a.push()/a.pop()：在末尾推入/弹出数组栈
+		- a.shift()/a.unshift()：在开头弹出/推入数组栈
+	- 排序方法：
+		- a.reverse()/a.sort()：倒序/顺序排列数组
+		- a.sort((num1,num2) => num1-num2 )：自定义排序，隐式传递要比较的2个参数，结果为1表示第一个字符排在第二个之前，-1则相反
+	- 操作方法：
+		- a.concat(b)：将b数组展开连接到a后部
+		- a.slice(index,num)：截取index下标起num个数，不改变原数组
+		- a.splice(index\[,num\[,string]])：用于在指定index位置删除num个元素，并插入string中的元素
+	- 搜索和位置方法：
+		- a.indexOf()/a.lastIndexOf()：数组元素下标位置
+		- a.includes()：确认数组是否包含相应属性
+		- a.find /findIndex((item,index,array)=>{element.age<18})：接收三个参数，元素，索引，数组本身，返回符合条件的元素，注：找到匹配项后不会继续查找
+	- 迭代方法：
+		- a.every/some((item,index,Array)=>{item>2})：搜索全为/包含匹配项
+		- a.filter((item,index,array)=>{})：返回满足条件的元素组成新的数组
+		- a.forEach()：对数组每一项执行传入函数，没有返回值
+		- a.map()：对数组每一项执行传入函数，返回新数组
+	- 归并方法：
+		- reduce/reduceRight((prev,cur,curindex,array)=>{prev+cur}，init)：正向/反向根据函数迭代每一项，起始值为init
+	- 定型数组：确定类型的数组，基本保留原始数组特性
+- Map：
+	- 定义：相比于原始数组带来真正的键/值存储
+	- 构造方法：const map = new Map(\[\["key1",“value1”],\[“key2”,“value2”]])
+	- 基础api：
+		- map.get(”key“)：返回键对应的值
+		- map.has("key")：确定是否存在对应键
+		- map.set("key","value")：设置键值对，返回map实例
+		- map.keys()/values()/entries()：键、值、键值对迭代器
+		- map.forEach((value,key,map)=>{})：对每一项执行函数操作
+		- map.delete("key")：删除对应项
+- Set：
+	- 构造方法：const set = new Set(\['set1','set2','set3'])
+	- 基础api：
+		- set.add('string')：添加集合
+		- set.has('string')：确定是否存在集合
+		- set.delete("string")：删除集合
+		- set.values() == set.keys()：集合值迭代器
+		- set.entries()：键值对迭代器，相当于键值对相同对象
+
+*函数：*
+- 定义：在ECMAScript中函数是实际上是对象，函数名是指向函数的指针
+- 调用方式：
+	- 使用函数声明或函数表达式创建
+		- 函数声明与函数表达式：函数声明会被提升，表达式会在程序顺序运行时调用
+	- 使用箭头函数创建
+	- 使用Function构造函数创建
+- 函数参数：
+	- length：保存函数参数个数
+	- prototype：保存引用类型所有实例
+	- 定义：函数参数在内部表现为一个数组
+	- 参数顺序：参数按照定义顺序依次被初始化
+	- 扩展参数：使用...args获取剩余参数列表
+- 无函数重载：由于ES没有函数签名，故不存在函数重载
+- 函数内部：
+	- arguments：
+		- arguments数组：在声明或表达式中创建的函数能使用arguments数组接收参数
+		- arguments.callee：指向函数的指针，实现函数解耦
+	- this：
+		- this指向：this指向和函数在哪里定义无关，跟如何调用有关
+		- 普通函数：this指向函数体包裹的上下文
+		- 箭头函数：this指向箭头函数外部的上下文
+	- caller：普通函数中用于指向外部函数的上下文的指针
+- 函数方法：
+	- apply()：
+		- fn.apply(this,array)：用来改变函数调用时this指向，传入参数为数组
+	- call()：
+		- fn.call(this,value1,value2)：用来改变this指向，传入参数为单独参数
+	- bind()：
+		- let newfn = fn.bind(this,)：使用表达式新定义一个函数并自定义this指向
+- 尾调用：
+	- 定义：用于解决递归自身导致栈帧过多从而浏览器负荷过大的情况
+	- 优化：用内部函数作为外部函数返回值，内部函数不使用外部函数作用域变量
+- 闭包：
+	- 定义：引用了另一个函数作用域变量的函数，通常在嵌套函数中产生
+	- 作用：由于内部函数访问了外部函数的作用域链，从而使内部函数可以访问外部函数的变量，并且持久化外部函数变量，直到内部函数执行完后才会被销毁
+- 立即执行函数：
+	- 定义(function(){})()：通过小括号声明块级作用域的表达式，模拟立即调用的情况

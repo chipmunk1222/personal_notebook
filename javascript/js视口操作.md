@@ -1,0 +1,51 @@
+*window对象：*
+- 定义：BOM对象的核心是window对象，window既表示ES的global对象，也表示浏览器窗口的js接口
+- 窗口关系：
+	- top：始终指向最外层对象
+	- parent：指向上层对象
+	- self：指向窗口本身
+- 窗口大小：
+	- window.screenX、window.screenY：返回浏览器距离桌面的坐标
+	- window.innerheight、window.innerwidth：返回视口内宽高
+	- window.outerheight、window.outerweight：返回视口外宽高
+	- document.documentElement.clientWidth、clientHeight：返回页面视口大小
+	- window.scrollX、window.scrollY：返回横纵滚动值
+	- dom.scrollHeight：返回最大纵轴滚动值
+- 窗口操作：
+	- window.open("url","targetframe")：在指定的窗口、窗格(frame)中打开url地址
+	- window.scrollTo(X,Y)：绝对定位控制滚动轴
+	- window.scrollBy(X,Y)：相对定位控制滚动轴
+	- bahavior：‘smooth’：表示浏览器是否平滑滚动
+- 定时器：
+	- setTimeout(fn,time)：指定time毫秒后执行fn函数
+	- setInterval(fn,time)：指定每隔time毫秒进行fn函数
+- 系统对话框：
+	- window.alter('')：警示框，只有‘OK’按钮
+	- window.confirm('')：确认框，有确认、取消按钮，可根据不同选择进行不同操作
+	- window.prompt('')：输入框，可接受输入信息
+- location对象：
+	- 定义：存储窗口中相关文档的信息
+	- 参数：href：完整URL，origin：BaseURL，protocol：协议，host：主机加端口号，hostname：主机，port：端口号，pathname：路径，hash：hash值，search：query的值
+	- 操作地址：
+		- location.assign('url')：修改浏览器地址，直接修改location属性会显示调用assign，除了修改hash外，其他修改都会导致页面刷新
+		- location.replace("url")：跳转并禁止后退历史
+		- location.reload()：强制页面重新加载
+- navigator对象：主要包含一些浏览器配置参数
+- history对象：
+	- 定义：在不显示保存浏览器url信息的条件下进行历史跳转
+	- 属性：
+		- go(num)：前进或后退相应页数
+		- back()/forward()：后退、前进
+
+获取dom元素的视口信息：
+- 语法：dom.getBoundingClientRect()
+- 返回属性：top、right、bottom、left：DOM元素四条边相对于视口原点的位置，height、width：DOM元素宽高，x、y：DOM元素x-axis，y-axis坐标
+- dom.clientheight、dom.clientweight：相当于DOM元素宽高
+- dom.offsetLeft、dom.offsetTop、dom.offsetWidth、dom.offsetHeight：元素边框内视口
+
+窗口事件：
+- 事件注册：dom.addEventListener('事件名'，处理函数)
+- 事件销毁：dom.removeEventListener('事件名'，处理函数)
+- 事件：
+	- scroll：监听窗口滚动
+	- resize：监听窗口变化

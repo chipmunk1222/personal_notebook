@@ -1,0 +1,102 @@
+全局安装TS：npm i typescript -g
+
+TypeScript类型：
+- 特性：TypeScript使用强类型，不允许没有定义类型的声明，使用:声明类型
+- 定义：
+	- TS类型包含所有JS类型：null、undefined、string(小写)、number、boolean、object
+	- 还包括void、never、enum、unknown、any以及自定义type和interface
+- 变量声明：
+	- var/let/const 标识符：数据类型=值
+- 类型推导：
+	- 如果没有明确声明类型，TS会隐式推导出一个类型，没有赋值则为any类型
+	- null、undefined既是实际的值，也是类型
+	- 数组：元素类型加上 \[]表示数组类型
+		- const arr : number\[] = \[1,2,3]
+		- const arr : (string|number) = \[1,2,"hello"]
+	- 元组：已知元素数量和类型的数组
+		- const tuple : \[number,string] = \[1,"hello"]
+	- 对象：
+		- 设置浅层对象，既不能修改对象数据，也不能新增数据(const obj:object={})
+		- 设置深层对象从而限制属性类型(const obj:{name:string,age:string} = {name:'',age:''})
+	- any、unknown、never：
+		- 不标注类型，默认为any，在any身上做任何操作都是合法的
+		- unknown类型类似于any，但unknown只能赋值给unknown或any
+		- never表示永不存在值的类型，用于给异常或死循环值声明，never会在联合类型被移除
+	- 函数：
+		- 声明函数时，可在每个参数和返回值添加参数类型注解
+		- 普通函数：function fn1(arg:number):number{ return 1}
+		- 箭头函数：
+			- const fn2 = (arg:number):number =>{ return 1}
+			- const fn2 : (arg:number) =>number = arg=>{return 1}
+			- 方法2适用于先定义函数类型type Fn2 = (arg:number) =>number后调用 
+		- 调用签名：
+			- 函数除了被调用，还可以有自己的属性值
+			- interface Fn{attr:number , (msg:number) : void} 
+		- 构造签名：使用new关键字将函数变为构造函数，即在调用签名前加new关键词
+		- this：
+			- 如果没有指定this类型，this是any类型
+			- 可以在函数第一个参数声明this类型，函数调用的参数从第二个开始接收
+			- ThisParameterType：提取函数类型的 this 参数类型，如果没有 this 参数则返回 unknown
+			- OmitThisParameter：移除函数类型 this 参数类型，返回当前函数类型
+	- 枚举类型：
+		- 将一组可能出现的值，一个个列举，定义在一个类型中
+		- enum Direction{left = ’Left‘，right = ’Right‘，other = 0}
+	- 字面量类型：
+		- 使用JS定义的值不仅可以做值，还可以当作TS类型
+		- 样例：let msg：‘hello’ = ‘hello’
+- interface和type：
+	- 定义：使用interface定义接口，使用type定义类型别名
+	- 样例：
+		- interface Ipoint{x:number,readonly y:number,z?:number }
+		- type Point{x:number,y:number}
+	- 区别：
+		- interface只描述对象，type可以描述任何数据
+		- interface使用extends实现继承，type使用&实现交叉类型
+		- interface会创建新的类型名，type只是创建类型别名，并没有创建新的类型
+		- interface可以重复声明拓展，type则不行
+	- 接口索引签名：
+		- 用来约束键值对对象
+		- 样例：interface A1{ \[k:number]:string}
+	- 接口继承：
+		- 使用extends关键字实现接口继承
+		- 样例：
+			- interface Animal{name:string}
+			- interface Dog extends Animal{age:number}
+			- const dog:Dog = {name:'lili',age:11}
+	- 接口实现：
+		- 定义的接口可以被类实现
+		- 在需要传入接口的地方也可以传入类实例
+- 联合类型、交叉类型、函数重载：
+	- TS有多种运算符，从现有的类型中创建新类型
+	- 联合类型：多种类型满足一个即可，使用|符号，其中每个联合的类型被称为联合成员
+	- 函数重载：用不同的方法编写同一个函数签名，表示函数可以用不同的方法调用
+	- 交叉类型：满足多个类型的条件，使用&符号，若无满足值，则为never
+- 断言：
+	- 类型断言as，当TS无法获取到具体的类型信息，就需要使用类型断言
+	- 非空类型断言！，当我们确定参数有值时，可使用非空类型断言跳过TS对其检测
+	- 常量断言as const，相当于给类型收窄为readonly类型
+- 类型兼容：
+	- 参数多的对象可以赋值给参数少的对象
+	- 参数少的函数可以赋值给参数多的函数
+
+
+
+
+TypeScript特性：
+- 类型推断：TypeScript使用强类型，不允许没有定义类型的声明，使用:声明类型
+- 接口：接口定义对象的形状，提高代码可读性与可维护性
+	- 声明：interface User{name:string,age:number}
+	- 使用：let user:User = {name,age}
+		- let user:User = new CreateUser('name',age)
+	- 注：使用时变量必须严格遵照接口的格式
+- 组合类型推断：使用组合类型创建自定义类型，适用于复杂环境
+	- type MyBool = true | false
+	- type WindowState = "open"|"close"|"minimized"
+	- let window:WindowState = "open"
+- 泛型类型推断：自定义变量类型
+	- interface BackPack\<Type>{
+		- get(obj:Type)=>{}
+	- }
+	- declare const backpack:BackPack\<string>
+	- backpack.get("aa")
+- 元组声明：let point:\[number,number] = \[1,2]

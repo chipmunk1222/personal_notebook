@@ -1,0 +1,328 @@
+{
+  "main": {
+    "id": "2eb01fbf6e70b153",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8413fe6befd0ee1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a26c008276b49bab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js快速入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9b53f602cc57ba1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/jsDOM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2dcee359a4d4a98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js特性.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f4f0bdbdde4cc74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js数据类型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d52d87ac38405c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/jsDOM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a47c1f7b71325074",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js视口操作.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3067a90340983460",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js快速入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22a8c5ce9507c2cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "js网络相关/js_AJAX/AJAX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b33bdc215844111",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/TypeScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ec1260df14bf729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/工程化/commonjs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17891402336e8844",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0c2bc5829f3c804",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32abb49584542525",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b056976b556b5cbc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#section2",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "183b2542778540f1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 209.50440216064453
+  },
+  "right": {
+    "id": "13f8f745e10f88c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6eb43d8abef8e18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06f6529f7281ce29",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "nodejs/工程化/commonjs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a062d13edd7704f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "nodejs/工程化/commonjs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7ef4b2b15a46dc2e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "4971d164f1673edc",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          },
+          {
+            "id": "722350a9d92f8f92",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "7a7f0be1e53a4a94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "nodejs/工程化/commonjs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 421.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9ec1260df14bf729",
+  "lastOpenFiles": [
+    "nodejs/工程化/ESmodule.md",
+    "nodejs/工程化/webpack.md",
+    "javascript/js客户端存储.md",
+    "javascript/jsDOM.md",
+    "javascript/js数据类型.md",
+    "javascript/js快速入门.md",
+    "javascript/js视口操作.md",
+    "javascript/Jquery.md",
+    "javascript/js特性.md",
+    "javascript/TypeScript.md",
+    "js网络相关/js_AJAX/js-cookie.md",
+    "js网络相关/js_AJAX/json server.md",
+    "javascript/js期约和异步.md",
+    "javascript/Pasted image 20240527195545.png",
+    "git/git bash.md",
+    "git/git.md",
+    "【乐云自动同步】基础知识及操作.pdf",
+    "计算机网络/(计算机科学丛书) James F. Kurose_ Keith W. Ross - 计算机网络（原书第7版）_ 自顶向下方法-机械工业出版社 (2018).pdf",
+    "计算机网络/快速入门.md",
+    "计算机网络",
+    "obsidian_vault/计算机网络",
+    "obsidian_vault/新建文件夹",
+    "html、css/css布局技巧.md",
+    "nodejs/vuejs/组合式api/vue3响应式.md",
+    "nodejs/vuejs/组合式api/vue3效率提升.md",
+    "nodejs/vuejs/组合式api/setup语法糖.md",
+    "nodejs/vuejs/vue指令/组件间的参数传递.md",
+    "nodejs/vuejs/vue指令/组件实例获取.md",
+    "nodejs/vuejs/vue指令/vue基本指令.md",
+    "js网络相关/js_AJAX/AJAX.md",
+    "js网络相关/js_AJAX/fetch.md",
+    "js网络相关/js_AJAX/json.md",
+    "cocos creator",
+    "uniapp",
+    "threejs/Pasted image 20240522133137.png",
+    "nodejs/vuejs/组合式api",
+    "nodejs/vuejs/vue官方库",
+    "nodejs/highlight.js",
+    "js网络相关/Pasted image 20240621130922.png",
+    "js网络相关/Pasted image 20240620111138.png",
+    "概率论/Pasted image 20240528120542.png",
+    "计算机组成原理/Pasted image 20240516163342.png",
+    "计算机组成原理/Pasted image 20240516153351.png",
+    "计算机组成原理/Pasted image 20240516110943.png",
+    "计算机组成原理/Pasted image 20240516102621.png",
+    "计算机组成原理/Pasted image 20240516101308.png",
+    "未命名.canvas"
+  ]
+}
