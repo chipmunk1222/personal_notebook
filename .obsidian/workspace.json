@@ -133,14 +133,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/ssh.md",
+                "file": "javascript/js客户端存储.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "405e0ccbce71aa7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js模块化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e5b96c87392d532",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js代码实践.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -206,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/ssh.md",
+                "file": "javascript/js代码实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/ssh.md",
+                "file": "javascript/js代码实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -266,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/ssh.md"
+                "file": "javascript/js代码实践.md"
               }
             }
           }
@@ -288,40 +312,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82a82621f7b32857",
+  "active": "2e5b96c87392d532",
   "lastOpenFiles": [
-    "git/git.md",
-    "git/ssh.md",
-    "git/git bash.md",
+    "javascript/js模块化.md",
+    "javascript/js代码实践.md",
     "nodejs/工程化/commonjs.md",
+    "javascript/js快速入门.md",
+    "javascript/js期约和异步.md",
+    "javascript/js客户端存储.md",
+    "javascript/js特性.md",
+    "javascript/jsDOM.md",
+    "javascript/TypeScript.md",
+    "js网络相关/js_AJAX/XML快速入门.md",
+    "js网络相关/js_AJAX/XML库.md",
+    "js网络相关/js_AJAX/uuid.md",
+    "js网络相关/js_AJAX/querystring.md",
+    "js网络相关/js_AJAX/psl.md",
+    "js网络相关/js_AJAX/mockjs.md",
+    "数字电子技术/1.3 逻辑门.md",
+    "数字电子技术/1.2 逻辑代数.md",
+    "git/ssh.md",
+    "git/git.md",
+    "git/git bash.md",
     "nodejs/工程化/ESmodule.md",
     "nodejs/工程化/webpack.md",
-    "javascript/js客户端存储.md",
-    "javascript/jsDOM.md",
     "javascript/js数据类型.md",
-    "javascript/js快速入门.md",
     "javascript/js视口操作.md",
     "javascript/Jquery.md",
-    "javascript/js特性.md",
-    "javascript/TypeScript.md",
     "js网络相关/js_AJAX/js-cookie.md",
-    "js网络相关/js_AJAX/json server.md",
-    "javascript/js期约和异步.md",
     "javascript/Pasted image 20240527195545.png",
     "【乐云自动同步】基础知识及操作.pdf",
     "计算机网络/(计算机科学丛书) James F. Kurose_ Keith W. Ross - 计算机网络（原书第7版）_ 自顶向下方法-机械工业出版社 (2018).pdf",
-    "计算机网络/快速入门.md",
     "计算机网络",
     "obsidian_vault/计算机网络",
     "obsidian_vault/新建文件夹",
-    "html、css/css布局技巧.md",
-    "nodejs/vuejs/组合式api/vue3响应式.md",
-    "nodejs/vuejs/组合式api/vue3效率提升.md",
-    "nodejs/vuejs/组合式api/setup语法糖.md",
-    "nodejs/vuejs/vue指令/组件间的参数传递.md",
-    "nodejs/vuejs/vue指令/组件实例获取.md",
-    "nodejs/vuejs/vue指令/vue基本指令.md",
-    "js网络相关/js_AJAX/AJAX.md",
     "cocos creator",
     "uniapp",
     "threejs/Pasted image 20240522133137.png",
