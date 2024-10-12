@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/TypeScript.md",
+                "file": "计算机网络/概述.md",
                 "mode": "source",
                 "source": false
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/TypeScript.md",
+                "file": "计算机网络/概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/TypeScript.md",
+                "file": "计算机网络/概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/TypeScript.md"
+                "file": "计算机网络/概述.md"
               }
             }
           }
@@ -327,6 +327,7 @@
   },
   "active": "61eb4f0d9939d291",
   "lastOpenFiles": [
+    "javascript/TypeScript.md",
     "javascript/js数据类型.md",
     "nodejs/vuejs/vue指令/vue基本指令.md",
     "nodejs/vuejs/vue指令/组件实例获取.md",
@@ -353,7 +354,6 @@
     "未命名.canvas",
     "obsidian_vault/html、css/css布局技巧.md",
     "js网络相关/js_AJAX/js-cookie.md",
-    "nodejs/工程化/commonjs.md",
     "个人网站建设",
     "【乐云自动同步】基础知识及操作.pdf",
     "Linux/操作系统",
