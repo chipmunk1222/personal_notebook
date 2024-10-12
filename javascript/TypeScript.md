@@ -1,5 +1,7 @@
 全局安装TS：npm i typescript -g
 
+前言：TypeScript本质上是为服务于js的类型便捷的，实际使用相当灵活，不用拘泥于绝对的规范，应根据实际情况进行调整
+
 TypeScript类型：
 - 特性：TypeScript使用强类型，不允许没有定义类型的声明，使用:声明类型
 - 定义：
@@ -44,6 +46,13 @@ TypeScript类型：
 	- 字面量类型：
 		- 使用JS定义的值不仅可以做值，还可以当作TS类型
 		- 样例：let msg：‘hello’ = ‘hello’
+	- 类的类型：
+		- 使用类不仅定义数据接口，也可应包括实现逻辑
+		- 使用extends进行继承，使用super调用父类原型上的方法
+		- 注：属性存在于类型实例中，方法在原型上，静态方法在类本身上
+		- 成员修饰符(前缀)：public、protected、private、readonly
+		- 抽象类(abstract class)：无法被实例化，只能被继承
+		- 参数属性：语法糖，在构造函数中的属性将被转化为同名实例属性
 - interface和type：
 	- 定义：使用interface定义接口，使用type定义类型别名
 	- 样例：
@@ -78,8 +87,17 @@ TypeScript类型：
 - 类型兼容：
 	- 参数多的对象可以赋值给参数少的对象
 	- 参数少的函数可以赋值给参数多的函数
-
-
+- 泛型编程：
+	- 原理：通过尖括号传入泛型类型，根据该值进行类型统一化
+	- 类型参数化：function fn\<T>(args:T):T{return args}
+	- 注：1、函数、接口、类等都可以使用泛型编程；2、泛型类型可以指定默认值<\T = string>
+	- 泛型约束：
+		- extends：在泛型中使用extends可以约束泛型范围<\T extends string>
+		- keyof：获取对象的键，用以生成一个联合类型，type Key = keyof Person
+	- 映射类型：
+		- 思想：遍历一个类型的所有属性，并为每个属性应用某种转换，用于从已有的类型中创建新的类型
+		- 语法形式：{ \[K in keyof T]:U}
+		- 其中，K是T所有类型的联合类型，U是变换函数
 
 
 TypeScript特性：
