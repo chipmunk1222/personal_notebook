@@ -98,7 +98,28 @@ TypeScript类型：
 		- 思想：遍历一个类型的所有属性，并为每个属性应用某种转换，用于从已有的类型中创建新的类型
 		- 语法形式：{ \[K in keyof T]:U}
 		- 其中，K是T所有类型的联合类型，U是变换函数
-
+	- 内置工具和类型体操：
+		- 条件类型：根据条件生成不同类型，类似于三元运算符
+			- someType extends OtherType ？trueType：falseType
+		- infer关键字：用以在正在比较的类型中推断类型
+		- 分发条件类型：泛型中使用条件类型，如果传入联合类型，就会变成分发条件类型
+		- Partitial<\Type>：所有属性变为可选属性?
+		- Required<\Type>：所有属性变为必选属性
+		- Readonly<\Type>：所有属性变为只读属性
+		- Record<\keys,Type>：构建以所有key为键，Type为值的对象类型
+		- Pick<\Type,keys>：从Type中选择keys类型构建新类型
+		- Omit<\Type,keys>：从Type中去掉keys类型构建新类型
+		- MyExclude<\UnionType，excludemenber>：从联合类型中过滤
+		- Extract<\Union，Type>：从Union里提取可以赋给Type的类型
+		- Exclude<\Union，Type>：从Union里剔除可以赋值给Type的类型
+		- NonNullable<\Type>：排除所有null，undefined类型
+	- 类型体操特性总结：
+		- 索引类型：使用keyof关键字获取对象的所有键，形成一个新的联合类型，使用 \[]获取键对应的类型，T \[number]用于将数组所有类型构成联合类型，{}\[key of T]用于获取对象的所有键组成联合类型
+		- 递归类型：在类型定义中引用了自身的类型，通常用于树形结构和递归结构
+		- 联合类型和交叉类型：操作符‘|’和‘&’，联合类型类似于或，交叉类型用于合并多个类型为一个类型
+		- 条件类型：使用extends关键字进行条件检索， 类型体操的核心，即根据条件返回特定类型，会对联合类型每一项进行条件检索，检索条件为符合检索规则，
+		- 条件类型推断：通过infer关键字推断联合类型，最终会将结果合并为交叉类型
+		- 映射类型：通过in关键字，使用 \[K in keyof T]的结构获取循环结构
 
 TypeScript特性：
 - 类型推断：TypeScript使用强类型，不允许没有定义类型的声明，使用:声明类型

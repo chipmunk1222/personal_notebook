@@ -16,7 +16,9 @@
                 "file": "javascript/js快速入门.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js快速入门"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "javascript/jsDOM.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "jsDOM"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "javascript/js特性.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js特性"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "javascript/js数据类型.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js数据类型"
             }
           },
           {
@@ -64,7 +72,9 @@
                 "file": "javascript/jsDOM.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "jsDOM"
             }
           },
           {
@@ -76,7 +86,9 @@
                 "file": "javascript/js视口操作.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js视口操作"
             }
           },
           {
@@ -88,7 +100,9 @@
                 "file": "javascript/js快速入门.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js快速入门"
             }
           },
           {
@@ -100,7 +114,9 @@
                 "file": "js网络相关/js_AJAX/AJAX.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "AJAX"
             }
           },
           {
@@ -112,7 +128,9 @@
                 "file": "javascript/TypeScript.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "TypeScript"
             }
           },
           {
@@ -124,7 +142,9 @@
                 "file": "git/git.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "git"
             }
           },
           {
@@ -136,7 +156,9 @@
                 "file": "javascript/js客户端存储.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js客户端存储"
             }
           },
           {
@@ -148,7 +170,9 @@
                 "file": "javascript/js模块化.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "js模块化"
             }
           },
           {
@@ -160,7 +184,9 @@
                 "file": "javascript/TypeScript.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "TypeScript"
             }
           },
           {
@@ -172,11 +198,433 @@
                 "file": "计算机网络/概述.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "概述"
+            }
+          },
+          {
+            "id": "08b5f7c3870aae58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机网络/应用层.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "应用层"
+            }
+          },
+          {
+            "id": "6ff012328bcf669f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机网络/传输层.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "传输层"
+            }
+          },
+          {
+            "id": "9116b880c99d9b97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人网站建设/hexo指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hexo指南"
+            }
+          },
+          {
+            "id": "2fb8acd8e2be341d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人网站建设/hexo指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hexo指南"
+            }
+          },
+          {
+            "id": "945371634f3aec04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/操作命令管理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "操作命令管理"
+            }
+          },
+          {
+            "id": "9c7e7594f6dec8e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/ssh.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ssh"
+            }
+          },
+          {
+            "id": "7894b07eb1dba7f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/vuejs/组合式api/vue3效率提升.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vue3效率提升"
+            }
+          },
+          {
+            "id": "3ae76dd05ccce584",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/操作系统/概念.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "概念"
+            }
+          },
+          {
+            "id": "4170127b2fcfb3d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机网络/网络层.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "网络层"
+            }
+          },
+          {
+            "id": "3cf499d5330e575d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/操作系统/概念.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "概念"
+            }
+          },
+          {
+            "id": "a229a2ef7cab3730",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/操作系统/操作系统架构以及服务.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "操作系统架构以及服务"
+            }
+          },
+          {
+            "id": "cb654551da5065e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/操作系统/进程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "进程"
+            }
+          },
+          {
+            "id": "1e801b310805a56d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/操作系统/虚拟内存管理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "虚拟内存管理"
+            }
+          },
+          {
+            "id": "500e072a0fb2a270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git"
+            }
+          },
+          {
+            "id": "b424f94c15dfcc02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程/软件过程模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "软件过程模型"
+            }
+          },
+          {
+            "id": "37a1e4acafce2def",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程/软件过程模型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "软件过程模型"
+            }
+          },
+          {
+            "id": "61daae048c826bf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/操作系统/文件系统.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文件系统"
+            }
+          },
+          {
+            "id": "88e2be00d0d5a7d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/element-ui.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "element-ui"
+            }
+          },
+          {
+            "id": "2d421395e83457d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/nodemon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nodemon"
+            }
+          },
+          {
+            "id": "9a2f6294dd74e7db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/Express.js.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Express.js"
+            }
+          },
+          {
+            "id": "e65f789d76af00f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/dotEnv.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dotEnv"
+            }
+          },
+          {
+            "id": "d0b5efbe02790823",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/nodemon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nodemon"
+            }
+          },
+          {
+            "id": "11316457c04c9945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/bcrypt.js.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bcrypt.js"
+            }
+          },
+          {
+            "id": "6a06d08f928e602b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/MongoDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MongoDB"
+            }
+          },
+          {
+            "id": "e97f25824ef906a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/dotEnv.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dotEnv"
+            }
+          },
+          {
+            "id": "ab8b5de31b78e77d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/工程化/ESmodule.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ESmodule"
+            }
+          },
+          {
+            "id": "1ba244b91362871b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reactjs/JSX与react组件化特征.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JSX与react组件化特征"
+            }
+          },
+          {
+            "id": "7e7764f130be9ab6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reactjs/state组件记忆与渲染机制.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "state组件记忆与渲染机制"
+            }
+          },
+          {
+            "id": "c5b842832e64ccdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vuejs/vue官方库/路由router实例.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "路由router实例"
+            }
+          },
+          {
+            "id": "2a4b58a51addfca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/git bash.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git bash"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 43
       }
     ],
     "direction": "vertical"
@@ -195,8 +643,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -205,13 +656,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#section2",
+                "query": "path:\"计算机组成原理/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -219,7 +672,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -242,7 +697,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机网络/概述.md",
+                "file": "nodejs/MongoDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +705,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "MongoDB 的反向链接列表"
             }
           },
           {
@@ -259,10 +716,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机网络/概述.md",
+                "file": "nodejs/MongoDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-going-out",
+              "title": "MongoDB 的出链列表"
             }
           },
           {
@@ -273,7 +732,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -281,7 +742,9 @@
             "type": "leaf",
             "state": {
               "type": "mindmap",
-              "state": {}
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mind Map of MongoDB"
             }
           },
           {
@@ -293,7 +756,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           },
           {
@@ -302,12 +767,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机网络/概述.md"
-              }
+                "file": "计算机网络/传输层.md"
+              },
+              "icon": "lucide-list",
+              "title": "传输层 的大纲"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -322,57 +789,58 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "61eb4f0d9939d291",
+  "active": "2a4b58a51addfca1",
   "lastOpenFiles": [
-    "javascript/TypeScript.md",
+    "git/git.md",
+    "js网络相关/网络基本概念.md",
+    "nodejs/JWT.md",
+    "nodejs/cloudinary.md",
+    "nodejs/Express.js.md",
+    "reactjs/state组件记忆与渲染机制.md",
     "javascript/js数据类型.md",
-    "nodejs/vuejs/vue指令/vue基本指令.md",
-    "nodejs/vuejs/vue指令/组件实例获取.md",
-    "nodejs/vuejs/vue指令/组件间的参数传递.md",
-    "nodejs/vuejs/组合式api/vue3深入组件.md",
-    "nodejs/vuejs/vue文件包含项.md",
-    "nodejs/vuejs/vue特性.md",
-    "nodejs/vuejs/vue概述.md",
-    "nodejs/vuejs/vue实例创建、配置项、实例成员.md",
-    "nodejs/vuejs/组合式api/vue3效率提升.md",
-    "nodejs/vuejs/组合式api/vue3更新.md",
-    "nodejs/vuejs/组合式api/setup语法糖.md",
-    "nodejs/vuejs/组合式api/vite工具链.md",
-    "nodejs/npm各组件库和命令.md",
-    "个人网站建设/hexo指南.md",
-    "html、css/css进阶.md",
-    "html、css/css布局技巧.md",
-    "html、css/Sass.md",
-    "html、css/nprogress.js.md",
-    "html、css/highlight.js.md",
-    "git/git bash.md",
-    "nodejs/vuejs/组合式api/vue3响应式.md",
-    "nodejs/工程化/ESmodule.md",
+    "javascript/jsDOM.md",
+    "js网络相关/js_AJAX/json server.md",
+    "vuejs/vue概述.md",
+    "vuejs/vue实例创建、配置项、实例成员.md",
+    "vuejs/vue特性.md",
+    "z文字/为何哲学无法被众知.md",
+    "nodejs/MongoDB.md",
+    "Photoshop/未命名.md",
+    "reactjs/react状态管理.md",
+    "reactjs/JSX与组件化特征.md",
+    "vuejs/vue官方库/路由router实例.md",
     "未命名.canvas",
-    "obsidian_vault/html、css/css布局技巧.md",
-    "js网络相关/js_AJAX/js-cookie.md",
+    "z文字",
+    "reactjs/渲染逻辑与操作方法.md",
+    "javascript/js快速入门.md",
+    "javascript/js模块化.md",
+    "nodejs/工程化/ESmodule.md",
+    "reactjs",
+    "nodejs/工程化/commonjs.md",
+    "nodejs/dotEnv.md",
+    "nodejs/nodemon.md",
+    "nodejs/npm各组件库和命令.md",
+    "js网络相关/Pasted image 20240620111138.png",
+    "nodejs/Pasted image 20250111151304.png",
+    "Photoshop",
+    "软件工程",
+    "javascript/Pasted image 20240527195545.png",
     "个人网站建设",
     "【乐云自动同步】基础知识及操作.pdf",
     "Linux/操作系统",
-    "javascript/Pasted image 20240527195545.png",
     "计算机网络/(计算机科学丛书) James F. Kurose_ Keith W. Ross - 计算机网络（原书第7版）_ 自顶向下方法-机械工业出版社 (2018).pdf",
     "计算机网络",
     "obsidian_vault/计算机网络",
-    "obsidian_vault/新建文件夹",
-    "cocos creator",
-    "uniapp",
     "threejs/Pasted image 20240522133137.png",
-    "nodejs/vuejs/组合式api",
     "js网络相关/Pasted image 20240621130922.png",
-    "js网络相关/Pasted image 20240620111138.png",
     "概率论/Pasted image 20240528120542.png",
     "计算机组成原理/Pasted image 20240516163342.png",
     "计算机组成原理/Pasted image 20240516153351.png",
     "计算机组成原理/Pasted image 20240516110943.png",
-    "计算机组成原理/Pasted image 20240516102621.png",
-    "计算机组成原理/Pasted image 20240516101308.png"
+    "计算机组成原理/Pasted image 20240516102621.png"
   ]
 }

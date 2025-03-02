@@ -20,7 +20,7 @@
 	- setTimeout(fn,time)：指定time毫秒后执行fn函数
 	- setInterval(fn,time)：指定每隔time毫秒进行fn函数
 - 系统对话框：
-	- window.alter('')：警示框，只有‘OK’按钮
+	- window.alert('')：警示框，只有‘OK’按钮
 	- window.confirm('')：确认框，有确认、取消按钮，可根据不同选择进行不同操作
 	- window.prompt('')：输入框，可接受输入信息
 - location对象：

@@ -1,4 +1,4 @@
-本地初始化hexo博客系统
+- [ ] 本地初始化hexo博客系统
 - npm install hexo-cli -g  //一键安装博客程序
 - hexo init \<foldname>  //初始化
 - cd \<foldname> //进入初始化文件夹
@@ -21,3 +21,5 @@ github双分支结构：
 代码提交：
 - 源码提交到source分支
 - 项目部署使用hexo clean，hexo g，hexo d，文件静态资源将自动部署到预先配置的github分支上
+
+
