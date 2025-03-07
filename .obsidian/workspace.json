@@ -615,16 +615,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git bash.md",
+                "file": "reactjs/组件化状态管理/state状态管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git bash"
+              "title": "state状态管理"
+            }
+          },
+          {
+            "id": "446c101fe9459f13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reactjs/JSX与基本操作逻辑/渲染逻辑与操作方法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "渲染逻辑与操作方法"
+            }
+          },
+          {
+            "id": "ad568640b568c732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reactjs/脱围机制/ref的应用.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ref的应用"
+            }
+          },
+          {
+            "id": "20f022ea825e91ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js快速入门.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "js快速入门"
+            }
+          },
+          {
+            "id": "2c950a7613a18ca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/js输入输出api.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "js输入输出api"
+            }
+          },
+          {
+            "id": "258e8017dead748a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nodejs/MongoDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MongoDB"
             }
           }
         ],
-        "currentTab": 43
+        "currentTab": 48
       }
     ],
     "direction": "vertical"
@@ -793,37 +863,40 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2a4b58a51addfca1",
+  "active": "32abb49584542525",
   "lastOpenFiles": [
+    "新建 文本文档.txt",
+    "javascript/js快速入门.md",
+    "javascript/js输入输出api.md",
+    "reactjs/脱围机制/useEffect钩子.md",
+    "reactjs/脱围机制/ref的应用.md",
+    "reactjs/JSX与基本操作逻辑/渲染逻辑与操作方法.md",
+    "reactjs/脱围机制",
+    "javascript/js数据类型.md",
+    "javascript/js模块化.md",
+    "javascript/js期约和异步.md",
+    "javascript/jsDOM.md",
+    "javascript/js特性.md",
+    "reactjs/组件化状态管理/深入状态管理.md",
+    "reactjs/组件化状态管理/state状态管理.md",
+    "reactjs/JSX与基本操作逻辑/state组件记忆与渲染机制.md",
+    "reactjs/组件化状态管理",
+    "reactjs/JSX与基本操作逻辑",
+    "reactjs/JSX与基本操作逻辑/JSX与组件化特征.md",
+    "nodejs/JWT.md",
+    "nodejs/bcrypt.js.md",
+    "nodejs/cloudinary.md",
+    "git/git bash.md",
     "git/git.md",
     "js网络相关/网络基本概念.md",
-    "nodejs/JWT.md",
-    "nodejs/cloudinary.md",
     "nodejs/Express.js.md",
-    "reactjs/state组件记忆与渲染机制.md",
-    "javascript/js数据类型.md",
-    "javascript/jsDOM.md",
     "js网络相关/js_AJAX/json server.md",
     "vuejs/vue概述.md",
     "vuejs/vue实例创建、配置项、实例成员.md",
     "vuejs/vue特性.md",
-    "z文字/为何哲学无法被众知.md",
-    "nodejs/MongoDB.md",
-    "Photoshop/未命名.md",
-    "reactjs/react状态管理.md",
-    "reactjs/JSX与组件化特征.md",
-    "vuejs/vue官方库/路由router实例.md",
     "未命名.canvas",
     "z文字",
-    "reactjs/渲染逻辑与操作方法.md",
-    "javascript/js快速入门.md",
-    "javascript/js模块化.md",
-    "nodejs/工程化/ESmodule.md",
     "reactjs",
-    "nodejs/工程化/commonjs.md",
-    "nodejs/dotEnv.md",
-    "nodejs/nodemon.md",
-    "nodejs/npm各组件库和命令.md",
     "js网络相关/Pasted image 20240620111138.png",
     "nodejs/Pasted image 20250111151304.png",
     "Photoshop",
@@ -832,9 +905,6 @@
     "个人网站建设",
     "【乐云自动同步】基础知识及操作.pdf",
     "Linux/操作系统",
-    "计算机网络/(计算机科学丛书) James F. Kurose_ Keith W. Ross - 计算机网络（原书第7版）_ 自顶向下方法-机械工业出版社 (2018).pdf",
-    "计算机网络",
-    "obsidian_vault/计算机网络",
     "threejs/Pasted image 20240522133137.png",
     "js网络相关/Pasted image 20240621130922.png",
     "概率论/Pasted image 20240528120542.png",
