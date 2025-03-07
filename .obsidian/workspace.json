@@ -685,16 +685,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reactjs/JSX与基本操作逻辑/渲染逻辑与操作方法.md",
+                "file": "vuejs/vue文件包含项.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "渲染逻辑与操作方法"
+              "title": "vue文件包含项"
+            }
+          },
+          {
+            "id": "52926338c5c2017b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vuejs/vue实例创建、配置项、实例成员.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vue实例创建、配置项、实例成员"
             }
           }
         ],
-        "currentTab": 48
+        "currentTab": 49
       }
     ],
     "direction": "vertical"
@@ -863,38 +877,39 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "32abb49584542525",
+  "active": "52926338c5c2017b",
   "lastOpenFiles": [
-    "reactjs/JSX与基本操作逻辑/JSX与组件化特征.md",
-    "reactjs/JSX与基本操作逻辑/state组件记忆与渲染机制.md",
-    "reactjs/JSX与基本操作逻辑/渲染逻辑与操作方法.md",
-    "reactjs/组件化状态管理/state状态管理.md",
-    "reactjs/组件化状态管理/深入状态管理.md",
+    "z文字/哲学第一思辨.md",
+    "z文字/哲学第一辩论.md",
+    "vuejs/vue文件包含项.md",
+    "vuejs/vue特性.md",
+    "vuejs/vue实例创建、配置项、实例成员.md",
+    "vuejs/vue概述.md",
+    "vuejs/vue指令/vue基本指令.md",
+    "vuejs/vue指令/组件实例获取.md",
+    "vuejs/vue指令/组件间的参数传递.md",
+    "z文字/哲学.md",
     "reactjs/脱围机制/useEffect钩子.md",
     "reactjs/脱围机制/ref的应用.md",
+    "reactjs/脱围机制",
+    "reactjs/组件化状态管理/深入状态管理.md",
+    "reactjs/组件化状态管理/state状态管理.md",
+    "reactjs/组件化状态管理",
+    "reactjs/JSX与基本操作逻辑/state组件记忆与渲染机制.md",
+    "reactjs/JSX与基本操作逻辑/渲染逻辑与操作方法.md",
+    "reactjs/JSX与基本操作逻辑/JSX与组件化特征.md",
+    "reactjs/JSX与基本操作逻辑",
+    "javascript/js输入输出api.md",
+    "z文字/为何哲学无法被众知.md",
+    "reactjs/渲染逻辑与操作方法.md",
+    "reactjs/state组件记忆与渲染机制.md",
+    "reactjs/react状态管理.md",
+    "reactjs/JSX与组件化特征.md",
+    "z文字",
     "nodejs/MongoDB.md",
     "新建 文本文档.txt",
     "javascript/js快速入门.md",
-    "javascript/js输入输出api.md",
-    "reactjs/脱围机制",
     "javascript/js数据类型.md",
-    "javascript/js模块化.md",
-    "javascript/js期约和异步.md",
-    "javascript/jsDOM.md",
-    "javascript/js特性.md",
-    "reactjs/组件化状态管理",
-    "reactjs/JSX与基本操作逻辑",
-    "nodejs/JWT.md",
-    "nodejs/bcrypt.js.md",
-    "nodejs/cloudinary.md",
-    "git/git bash.md",
-    "git/git.md",
-    "js网络相关/网络基本概念.md",
-    "nodejs/Express.js.md",
-    "js网络相关/js_AJAX/json server.md",
-    "vuejs/vue概述.md",
-    "vuejs/vue实例创建、配置项、实例成员.md",
-    "vuejs/vue特性.md",
     "未命名.canvas",
     "z文字",
     "reactjs",
@@ -904,7 +919,6 @@
     "软件工程",
     "javascript/Pasted image 20240527195545.png",
     "个人网站建设",
-    "【乐云自动同步】基础知识及操作.pdf",
     "threejs/Pasted image 20240522133137.png",
     "js网络相关/Pasted image 20240621130922.png",
     "概率论/Pasted image 20240528120542.png",
