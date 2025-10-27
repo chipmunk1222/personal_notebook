@@ -12,7 +12,7 @@ git clean -f(d)：强制删除工作区文件(文件夹)
 暂存区：
 git commit -m "<messagename>":将暂存区所有文件添加到仓库
 git commit -am "<messagename>":直接将文件移动到仓库
-git commit -amend:回到上一步命令
+git commit -amend:将本次修改放入上一个commit中
 git ls-files：查看暂存区中的文件信息
 git rm --cacheed <filename>：移除暂存区文件
 
